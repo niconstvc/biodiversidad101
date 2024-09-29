@@ -178,12 +178,13 @@ body {
   font-size: 3rem;
   margin-bottom: 20px;
   line-height: 1.2;
-  color:#28920d
+  color:#43c922
 }
 
 .hero-text p {
   font-size: 1.5rem;
   margin-bottom: 30px;
+  color:#ccc
 }
 
 .hero-text .hero-btn {
