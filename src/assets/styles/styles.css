@@ -36,7 +36,6 @@ body {
 .top-links a:hover {
   text-decoration: underline;
 }
-
 /* Navbar Styles */
 .navbar {
   background-color: #1abc9c;
@@ -86,6 +85,12 @@ body {
   background-color: #27ae60;
 }
 
+.user-actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; /* Alinear los iconos y el carrito a la derecha */
+}
+
 .user-actions i {
   color: white;
   font-size: 1.8rem;
@@ -97,6 +102,13 @@ body {
   color: #f39c12;
 }
 
+.user-actions img {
+  width: 24px;
+  height: 24px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
 .cart-count {
   background-color: #e74c3c;
   color: white;
@@ -105,6 +117,17 @@ body {
   font-size: 0.9rem;
   margin-left: 5px;
 }
+
+/* Links dentro de user-actions para mejor visibilidad */
+.user-actions a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.user-actions a:hover {
+  color: #f39c12;
+}
+
 
 /* Menu Links */
 .menu-bar {
