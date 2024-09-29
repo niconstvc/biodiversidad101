@@ -1,7 +1,7 @@
 Biodiversidad101
 
 Introducción
-Biodiversidad101 es una aplicación web de comercio electrónico enfocada en la venta de productos y servicios sostenibles relacionados con la biodiversidad y el medio ambiente. Los usuarios pueden explorar el catálogo, agregar productos al carrito, registrarse o iniciar sesión, y realizar compras. La aplicación cuenta con un diseño moderno y responsivo.
+Biodiversidad es una aplicación web de comercio electrónico enfocada en la venta de productos y servicios sostenibles relacionados con la biodiversidad y el medio ambiente. Los usuarios pueden explorar el catálogo, agregar productos al carrito, registrarse o iniciar sesión, y realizar compras. La aplicación cuenta con un diseño moderno y responsivo.
 
 Tecnologías
 Frontend: React.js, React Router, Bootstrap Icons, CSS, Vite.
