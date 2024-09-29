@@ -713,3 +713,27 @@ p {
   font-size: 1.5rem;
   margin-right: 10px;
 }
+
+.user-actions i {
+  color: white;
+  font-size: 1.8rem;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.user-actions i.clicked {
+  color: #f39c12; /* Color diferente al hacer clic */
+}
+
+.user-actions i:hover {
+  color: #f39c12; /* Color al hacer hover */
+}
+
+.cart-count {
+  background-color: #e74c3c;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 50%;
+  font-size: 0.9rem;
+  margin-left: 5px;
+}
