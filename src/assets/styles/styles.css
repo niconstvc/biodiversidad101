@@ -119,16 +119,6 @@ body {
   margin-left: 5px;
 }
 
-/* Links within user-actions for better visibility */
-.user-actions a {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.user-actions a:hover {
-  color: #f39c12;
-}
-
 
 
 /* Menu Links */
