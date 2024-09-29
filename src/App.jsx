@@ -43,28 +43,27 @@ const App = () => {
         <Navbar cartItems={cart.length} /> {/* Pasar el número de items en el carrito */}
       </header>
 
-    </header>
-
-<section
-  className="hero"
-  style={{
-    backgroundImage: `url('https://biodiversidad.cl/wp-content/uploads/2024/09/inicio-1.jpg')`,
-    backgroundSize: 'cover',
-    backgroundPosition: 'center',
-    height: '400px',
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    color: 'white',
-    textAlign: 'center',
-    padding: '20px'
-  }}
->
-  <div className="hero-text">
-    <h2>Conectando con la Naturaleza y Soluciones Sostenibles</h2>
-    <p>Explora nuestros productos y servicios que promueven un futuro más verde.</p>
-  </div>
-</section>
+      {/* Sección Hero con imagen */}
+      <section
+        className="hero"
+        style={{
+          backgroundImage: `url('https://biodiversidad.cl/wp-content/uploads/2024/09/inicio-1.jpg')`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          height: '400px',
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+          color: 'white',
+          textAlign: 'center',
+          padding: '20px'
+        }}
+      >
+        <div className="hero-text">
+          <h2>Conectando con la Naturaleza y Soluciones Sostenibles</h2>
+          <p>Explora nuestros productos y servicios que promueven un futuro más verde.</p>
+        </div>
+      </section>
 
       <main>
         <Routes>
@@ -100,3 +99,4 @@ const App = () => {
 };
 
 export default App;
+
