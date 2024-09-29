@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 const Navbar = ({ cartItems }) => {
   return (
     <header>
-      {/* Barra superior */}
       <div className="top-bar">
         <p>¡Bienvenidos a nuestra tienda ecológica!</p>
         <div className="top-links">
@@ -12,32 +11,28 @@ const Navbar = ({ cartItems }) => {
           <Link to="/register">Registrarse</Link>
         </div>
       </div>
-      
-      {/* Barra principal de navegación */}
       <div className="main-navbar">
         <div className="logo">
           <Link to="/">Biodiversidad.cl</Link>
         </div>
-        
-        {/* Barra de búsqueda */}
         <div className="search-bar">
           <input type="text" placeholder="Buscar productos..." />
           <button><i className="bi bi-search"></i></button>
         </div>
-
-        {/* Acciones del usuario */}
         <div className="user-actions">
           <Link to="/dashboard">
             <i className="bi bi-person"></i> Perfil
           </Link>
           <Link to="/cart">
-            <i className="bi bi-cart"></i> 
+            <img
+              src="https://biodiversidad.cl/public_html/biodiversidad/wp-content/uploads/2024/09/icons8-shopping-cart-48.png"
+              alt="Carrito de compras"
+              style={{ width: '24px', height: '24px' }}
+            />
             {cartItems > 0 && <span className="cart-count">{cartItems}</span>}
           </Link>
         </div>
       </div>
-
-      {/* Menú de navegación */}
       <nav className="menu-bar">
         <Link to="/">Inicio</Link>
         <Link to="/products">Productos</Link>
