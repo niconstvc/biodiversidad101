@@ -6,7 +6,7 @@ const FeaturedProducts = () => {
       <h2>Productos Destacados</h2>
       <div className="featured-products-container">
         <div className="featured-product">
-          <img src="/vite-project/src/imagen/KitDeJardineria.jpg" alt="Kit de jardinería" />
+          <img src="https://biodiversidad.cl/wp-content/uploads/2024/09/kit-jardineria.jpg" alt="Kit de jardinería" />
           <h3>Kit de jardinería</h3>
           <p>Solo desde <span className="price">$9.99</span></p>
         </div>
