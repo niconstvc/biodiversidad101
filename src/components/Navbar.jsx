@@ -1,7 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const Navbar = ({ cartItems }) => {
+  const [isProfileClicked, setProfileClicked] = useState(false);
+
+  const handleProfileClick = () => {
+    setProfileClicked(!isProfileClicked);
+  };
+
   return (
     <header>
       <div className="top-bar">
@@ -20,8 +26,8 @@ const Navbar = ({ cartItems }) => {
           <button><i className="bi bi-search"></i></button>
         </div>
         <div className="user-actions">
-          <Link to="/dashboard">
-            <i className="bi bi-person"></i> Perfil
+          <Link to="/dashboard" onClick={handleProfileClick}>
+            <i className={`bi bi-person ${isProfileClicked ? 'clicked' : ''}`}></i> {/* Solo ícono, sin texto */}
           </Link>
           <Link to="/cart">
             <img
