@@ -36,6 +36,7 @@ body {
 .top-links a:hover {
   text-decoration: underline;
 }
+
 /* Navbar Styles */
 .navbar {
   background-color: #1abc9c;
@@ -85,29 +86,32 @@ body {
   background-color: #27ae60;
 }
 
-/* Fix for icons always visible */
+/* Ajuste para que los iconos siempre sean visibles */
 .user-actions {
   display: flex;
   align-items: center;
-  justify-content: flex-end; /* Ensure icons are aligned to the right */
 }
 
 .user-actions i {
-  color: white; /* Make the icons visible by default */
+  color: white;
   font-size: 1.8rem;
-  margin-left: 20px;
+  margin-left: 10px;
   cursor: pointer;
-}
-
-.user-actions i:hover {
-  color: #f39c12;
 }
 
 .user-actions img {
   width: 24px;
   height: 24px;
-  margin-left: 20px;
+  margin-left: 10px; /* Espacio reducido entre el icono de carrito y perfil */
   cursor: pointer;
+}
+
+.user-actions i.clicked {
+  color: #f39c12; /* Color diferente al hacer clic */
+}
+
+.user-actions i:hover {
+  color: #f39c12; /* Color al hacer hover */
 }
 
 .cart-count {
@@ -118,8 +122,6 @@ body {
   font-size: 0.9rem;
   margin-left: 5px;
 }
-
-
 
 /* Menu Links */
 .menu-bar {
@@ -193,13 +195,13 @@ body {
   font-size: 3rem;
   margin-bottom: 20px;
   line-height: 1.2;
-  color:#43c922
+  color: #43c922;
 }
 
 .hero-text p {
   font-size: 1.5rem;
   margin-bottom: 30px;
-  color:#ccc
+  color: #ccc;
 }
 
 .hero-text .hero-btn {
@@ -215,7 +217,6 @@ body {
 .hero-text .hero-btn:hover {
   background-color: #27ae60;
 }
-
 
 /* Featured Products & Services Section */
 .featured-products, .featured-services {
@@ -446,6 +447,7 @@ footer p {
 .dashboard-container li:last-child {
   border-bottom: none;
 }
+
 /* Estilos para productos y carrito */
 .quantity-container {
   margin-top: 10px;
@@ -696,6 +698,7 @@ p {
   background-color: #27ae60;
   transform: scale(1.05);
 }
+
 /* User Actions Icons */
 .user-actions a {
   color: white;
