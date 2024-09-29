@@ -7,21 +7,21 @@ const productsData = [
     name: 'Kit de Jardinería',
     description: 'Todo lo necesario para empezar tu huerto en casa.',
     price: 29.99,
-    image: 'https://via.placeholder.com/150', // Reemplaza con el enlace de la imagen
+    image: 'https://biodiversidad.cl/wp-content/uploads/2024/09/kit-jardineria.jpg', // Imagen actualizada
   },
   {
     id: 2,
     name: 'Compost Orgánico',
     description: 'Mejora la calidad de tu suelo de manera natural.',
     price: 15.99,
-    image: 'https://via.placeholder.com/150', // Reemplaza con el enlace de la imagen
+    image: 'https://biodiversidad.cl/wp-content/uploads/2024/09/serviciodecompostajecomunitario.jpg', // Imagen actualizada
   },
   {
     id: 3,
     name: 'Panel Solar',
     description: 'Energía renovable para tu hogar.',
     price: 199.99,
-    image: 'https://via.placeholder.com/150', // Reemplaza con el enlace de la imagen
+    image: 'https://biodiversidad.cl/wp-content/uploads/2024/09/instalaciondeenergiarenovable.jpg', // Imagen actualizada
   },
   // Agrega más productos si es necesario
 ];
