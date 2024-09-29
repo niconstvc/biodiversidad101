@@ -37,9 +37,7 @@ const App = () => {
   return (
     <Router>
       <header>
-        <div className="banner">
-          ¡Oferta especial en productos sostenibles! Envío gratis en pedidos mayores a $50.
-        </div>
+
         <Navbar cartItems={cart.length} /> {/* Pasar el número de items en el carrito */}
       </header>
 

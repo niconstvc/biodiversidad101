@@ -1,5 +1,5 @@
-// src/components/Cart.jsx
 import React from 'react';
+import '../assets/styles/Cart.css';
 
 const Cart = ({ cartItems }) => {
   return (

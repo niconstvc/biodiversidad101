@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../assets/img/logo.png';
+import  '../assets/styles/Navbar.css'
 
 const Navbar = ({ cartItems }) => {
   return (
@@ -13,10 +15,10 @@ const Navbar = ({ cartItems }) => {
       </div>
       <div className="main-navbar">
         <div className="logo">
-          <Link to="/">Biodiversidad.cl</Link>
+          <Link to="/"> <img src={logo} alt="Biodiversidad.cl" /></Link>
         </div>
         <div className="search-bar">
-          <input type="text" placeholder="Buscar productos..." />
+          <input type="text" placeholder="Buscar..." />
           <button><i className="bi bi-search"></i></button>
         </div>
         <div className="user-actions">
