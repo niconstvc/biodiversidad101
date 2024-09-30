@@ -33,3 +33,4 @@ export const addProduct = async (product) => {
     throw error;
   }
 };
+ 
